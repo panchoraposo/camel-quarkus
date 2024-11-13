@@ -1,0 +1,90 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:sap-com:document:sap:rfc:functions">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:Z_RFC_ZACPMF001>
+         <IS_ORDEN_HEADER>
+            <ORDER_TYPE>PMI1</ORDER_TYPE>
+            <ORDERID>%00000000001</ORDERID>
+            <SHORT_TEXT>ORDEN INMEDIATA COMP SOAPUI</SHORT_TEXT>
+            <START_DATE>20/10/2020</START_DATE>
+            <PLANGROUP>L2E</PLANGROUP>
+            <FUNCT_LOC>VC-DR-DRI1-20-01</FUNCT_LOC>
+            <EQUIPMENT></EQUIPMENT>
+            <PLANPLANT>V100</PLANPLANT>
+            <PLANT>V100</PLANT>
+            <MN_WK_CTR>531M</MN_WK_CTR>
+            <PMACTTYPE>001</PMACTTYPE>
+            <PRIORITY>1</PRIORITY>
+            <RESPCCTR>ASVC-DS415</RESPCCTR>
+            <SYSTCOND>1</SYSTCOND>
+            <ASSET_NO></ASSET_NO>
+            <SUB_NUMBER></SUB_NUMBER>
+            <SETTLORDER></SETTLORDER>
+         </IS_ORDEN_HEADER>
+         <IT_COMPONENTES>
+            <!--Zero or more repetitions:-->
+            <item>
+               <ACTIVITY>0010</ACTIVITY>
+               <MATERIAL>5900057</MATERIAL>
+               <REQUIREMENT_QUANTITY>3.000</REQUIREMENT_QUANTITY>
+               <REQUIREMENT_QUANTITY_UNIT>UN</REQUIREMENT_QUANTITY_UNIT>
+               <LOTE></LOTE>
+               <STGE_LOC>V101</STGE_LOC>
+               <ITEM_CAT>N</ITEM_CAT>
+               <PUR_GROUP>023</PUR_GROUP>
+               <PURCH_ORG>OCAC</PURCH_ORG>
+               <PREQ_NAME>PLANTA</PREQ_NAME>
+               <GR_RCPT>TREN 1</GR_RCPT>
+               <UNLOAD_PT>ARDILES</UNLOAD_PT>
+               <AGREEMENT></AGREEMENT>
+               <AGMT_ITEM>00000</AGMT_ITEM>
+            </item>
+    
+            <item>
+               <ACTIVITY>0010</ACTIVITY>
+               <MATERIAL>5900272</MATERIAL>
+               <REQUIREMENT_QUANTITY>1.000</REQUIREMENT_QUANTITY>
+               <REQUIREMENT_QUANTITY_UNIT>UN</REQUIREMENT_QUANTITY_UNIT>
+               <LOTE></LOTE>
+               <STGE_LOC>V101</STGE_LOC>
+               <ITEM_CAT>N</ITEM_CAT>
+               <PUR_GROUP>023</PUR_GROUP>
+               <PURCH_ORG>OCAC</PURCH_ORG>
+               <PREQ_NAME>PLANTA</PREQ_NAME>
+               <GR_RCPT>TREN 1</GR_RCPT>
+               <UNLOAD_PT>DARIO</UNLOAD_PT>
+               <AGREEMENT></AGREEMENT>
+               <AGMT_ITEM>00000</AGMT_ITEM>
+            </item>                    
+         </IT_COMPONENTES>
+         <IT_OPERACIONES>
+            <!--Zero or more repetitions:-->
+            <item>
+               <ACTIVITY>0010</ACTIVITY>
+               <CONTROLKEY>PM01</CONTROLKEY>
+               <WORK_CNTR>531E</WORK_CNTR>
+               <PLANT>V100</PLANT>
+               <ACTTYPE>MAORHS</ACTTYPE>
+               <WORK_ACTIVITY>12</WORK_ACTIVITY>
+               <UN_WORK>H</UN_WORK>
+               <DESCRIPTION>OPERACIÓN 0010 MEJORAS</DESCRIPTION>
+               <CALC_KEY>0</CALC_KEY>
+               <MATL_GROUP></MATL_GROUP>
+               <VENDOR_NO></VENDOR_NO>
+               <PUR_GROUP></PUR_GROUP>
+               <PURCH_ORG></PURCH_ORG>
+               <OPER_QUANTITY>0.000</OPER_QUANTITY>
+               <OPER_BASE_UOM></OPER_BASE_UOM>
+               <OPER_PRICE>0.00</OPER_PRICE>
+               <PREQ_NAME></PREQ_NAME>
+               <SRVPOS>3001411</SRVPOS>
+               <SRV_QUANTITY>134</SRV_QUANTITY>
+               <SRV_UOM>MIN</SRV_UOM>
+               <SRV_GROSS_PRICE>3456</SRV_GROSS_PRICE>
+               <AGREEMENT></AGREEMENT>
+               <AGMT_ITEM>00000</AGMT_ITEM>
+            </item>
+         </IT_OPERACIONES>
+      </urn:Z_RFC_ZACPMF001>
+   </soapenv:Body>
+</soapenv:Envelope>
